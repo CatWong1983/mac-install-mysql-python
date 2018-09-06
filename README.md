@@ -1,5 +1,6 @@
 # mac-install-mysql-python
-在mac上安装mysql-python遇到了很多问题， 并且可能同样的安装流程在不同电脑有不同的错误， 对此进行一个简单的记录
+**在mac上安装mysql-python遇到了很多问题， 并且可能同样的安装流程在不同电脑有不同的错误， 
+对此进行一个简单的记录，不一定适用所有人，但希望可以供大家有个参考**
 
 1. 在安装MySQL- python之前先确定有没有安装mysql，运行下列代码
 ```
@@ -59,3 +60,4 @@ sudo chown -R $USER /Library/Python/2.7
 ```
 sudo pip install MySQL-python
 ```
+最后总结一下，必要的前置条件就是mysql，安装完mysql后我们借助mysql-connector-c来进行后续的安装，最后解决文件权限的问题（权限问题不一定谁都会遇到， 我在安装第二次的时候就没有遇到）。
