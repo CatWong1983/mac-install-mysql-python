@@ -26,7 +26,7 @@ sudo pip install MySQL-python
 4.执行
 ```
 brew unlink mysql
-brew isntall mysql-connector-c
+brew install mysql-connector-c
 ```
 如果报错
 ```
